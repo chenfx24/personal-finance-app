@@ -35,3 +35,5 @@ body{background:linear-gradient(180deg,#f4f6f7 0%,#e9eef1 100%);color:var(--ink)
 .link{color:#607f94}.danger{color:#b46f6c}
 .field input,.field select,.manage input{background:#f8fafb;border-color:#dce2e5;color:#344652}
 .pieWrap{background:transparent}
+
+.detailBack{padding:0;margin:0 0 8px;font-size:14px}.detailTotal{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}.detailTotal b{font-size:22px;color:#526f83}
