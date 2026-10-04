@@ -6,3 +6,5 @@
 .sum.selected{outline:2px solid rgba(49,95,85,.28);box-shadow:0 5px 16px rgba(49,95,85,.12)}.cat{cursor:pointer}.cat:active{transform:scale(.97)}
 
 .dateSelects{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.yearSelect{min-width:112px}.monthOnlySelect{min-width:88px}
+
+.recordTabs{margin:4px 0 14px}.recordTabs button{flex:1}
