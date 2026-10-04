@@ -8,3 +8,5 @@
 .dateSelects{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.yearSelect{min-width:112px}.monthOnlySelect{min-width:88px}
 
 .recordTabs{margin:4px 0 14px}.recordTabs button{flex:1}
+
+.restoreBtn{display:block;text-align:center;margin-top:10px;padding:13px 16px;border:1px solid var(--line);border-radius:14px;background:var(--card);font-weight:700;cursor:pointer}.backupHint{margin-top:10px}
