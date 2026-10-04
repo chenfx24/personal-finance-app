@@ -10,3 +10,28 @@
 .recordTabs{margin:4px 0 14px}.recordTabs button{flex:1}
 
 .restoreBtn{display:block;text-align:center;margin-top:10px;padding:13px 16px;border:1px solid var(--line);border-radius:14px;background:var(--card);font-weight:700;cursor:pointer}.backupHint{margin-top:10px}
+
+/* 2026-10 Morandi gray-blue visual refresh */
+:root{
+ --bg:#eef1f3;--card:#f8f9f9;--ink:#26343f;--muted:#778590;--line:#dce2e5;
+ --green:#7893a5;--red:#b9827d;--blue:#879cad;--accent:#708da1;
+}
+body{background:linear-gradient(180deg,#f4f6f7 0%,#e9eef1 100%);color:var(--ink)}
+.shell{background:transparent}
+.top{padding-top:4px}
+.monthSelect{background-color:rgba(248,249,249,.94);border-color:#d9e0e4;color:#344652;box-shadow:0 3px 12px rgba(61,78,91,.06)}
+.sum,.panel,.cat{background:rgba(250,251,251,.94);border:1px solid rgba(210,219,224,.75);box-shadow:0 8px 24px rgba(70,86,98,.07)}
+.sum.income{background:linear-gradient(145deg,#edf3f4,#e4ecef)}
+.sum.expense{background:linear-gradient(145deg,#f5eeee,#eee6e7)}
+.sum.saving{background:linear-gradient(145deg,#edf1f5,#e5ebf0)}
+.sum.selected{outline:2px solid rgba(112,141,161,.28);box-shadow:0 8px 24px rgba(70,91,107,.12)}
+.primary{background:linear-gradient(135deg,#718da1,#8da3b2);box-shadow:0 8px 18px rgba(83,111,130,.18)}
+.nav{background:rgba(247,249,250,.94);border-top-color:#dce2e5;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.nav button{color:#82909a}.nav button.active{color:#607f94}
+.tabs{background:#e7ebed}.tabs button{color:#667681}.tabs button.on{background:#7893a5;color:white;box-shadow:0 3px 10px rgba(83,111,130,.14)}
+.icon{background:#e9eef1;color:#607f94}
+.bar{background:#e3e8eb}.bar i{background:#7893a5}
+.restoreBtn{background:#f7f9fa;border-color:#d8e0e4;color:#526a7a}
+.link{color:#607f94}.danger{color:#b46f6c}
+.field input,.field select,.manage input{background:#f8fafb;border-color:#dce2e5;color:#344652}
+.pieWrap{background:transparent}
