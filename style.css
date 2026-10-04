@@ -39,3 +39,5 @@ body{background:linear-gradient(180deg,#f4f6f7 0%,#e9eef1 100%);color:var(--ink)
 .detailBack{padding:0;margin:0 0 8px;font-size:14px}.detailTotal{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}.detailTotal b{font-size:22px;color:#526f83}
 
 .editableRow{cursor:pointer}.editableRow:active{background:#eef2f4}.editableRow:after{content:'›';color:#9aa7af;font-size:22px;margin-left:8px}
+
+.calc{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:10px 0 14px}.calc button{border:0;border-radius:14px;background:#f4f6f7;color:#334651;font-size:20px;font-weight:650;min-height:48px;box-shadow:inset 0 0 0 1px #dde4e7}.calc .op{background:#e4ebef;color:#56758a}.calc .mutedKey{color:#a56f6c}.calc .equals{grid-column:1/-1;background:#718da1;color:white;font-weight:750}
