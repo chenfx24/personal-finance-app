@@ -45,3 +45,9 @@ body{background:linear-gradient(180deg,#f4f6f7 0%,#e9eef1 100%);color:var(--ink)
 .calcDisplay{width:100%;overflow:hidden}
 .amount input{max-width:78%;font-size:clamp(26px,8vw,38px)!important;text-align:right;overflow-x:auto}
 @media(max-width:380px){.amount{font-size:28px}.amount input{font-size:28px!important}.calc{gap:6px}.calc button{min-height:45px}}
+
+.calcAmount{display:block;width:100%;margin:14px 0 10px;text-align:right;overflow:hidden}
+.calcFormula{height:24px;padding:0 4px;color:var(--muted);font-size:14px;font-weight:550;line-height:24px;white-space:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.calcValue{display:flex;align-items:center;justify-content:flex-end;gap:8px;width:100%;font-size:clamp(26px,8vw,38px);font-weight:800}
+.calcValue input{width:min(82%,420px)!important;max-width:none!important;min-width:0;border:0;background:transparent;outline:none;text-align:right;font:inherit!important;color:var(--ink);white-space:nowrap;overflow-x:auto}
+@media(max-width:380px){.calcValue{font-size:28px}.calcFormula{font-size:13px}}
