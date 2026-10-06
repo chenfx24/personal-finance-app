@@ -66,3 +66,9 @@ body{background:linear-gradient(180deg,#f4f6f7 0%,#e9eef1 100%);color:var(--ink)
 .calcValue input{font-size:32px!important;line-height:1.2;min-width:0;max-width:100%!important;transform:none!important}
 .calcFormula{max-width:100%;overflow-x:auto}
 @media(max-width:430px){.sheet{padding-left:14px;padding-right:14px}.calc{gap:7px}.calc button{font-size:20px}.calcValue input{font-size:30px!important}}
+
+.wealthTotal{background:linear-gradient(145deg,#fbf4df,#f4e8c7);display:flex;justify-content:space-between;align-items:end}
+.wealthTotal b{font-size:30px;color:#8a5a0a}
+.assetList{padding:4px 14px}
+.assetRow{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:13px 0;border-bottom:1px solid var(--line)}
+.assetRow:last-child{border-bottom:0}.assetInfo{display:flex;align-items:center;gap:11px;min-width:0}.assetIcon{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:#edf1f3;font-size:23px;flex:0 0 42px}.assetAmount{max-width:42%}.assetAmount input{width:100%;border:0;background:#f1f4f5;border-radius:12px;padding:10px;text-align:right;font-size:16px;font-weight:700;color:var(--ink);outline:none}
