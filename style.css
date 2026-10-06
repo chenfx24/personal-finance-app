@@ -56,3 +56,13 @@ body{background:linear-gradient(180deg,#f4f6f7 0%,#e9eef1 100%);color:var(--ink)
 .homeSummary .balance{background:linear-gradient(145deg,#f2f3ef,#e9ece7)}
 .homeSummary .wealth{background:linear-gradient(145deg,#edf1f5,#e3eaf0)}
 @media(max-width:360px){.homeSummary{grid-template-columns:1fr 1fr}.homeSummary .sum b{font-size:17px}}
+
+/* iPhone calculator anti-zoom / fixed mobile layout */
+.modal,.sheet,.calc,.calc button,.calcAmount,.calcValue,.calcValue input{touch-action:manipulation}
+.sheet{width:100%;max-width:560px;overscroll-behavior:contain}
+.calc{width:100%;grid-template-columns:repeat(4,minmax(0,1fr))}
+.calc button{width:100%;min-width:0;font-size:20px;-webkit-tap-highlight-color:transparent}
+.calcValue{min-width:0;overflow:hidden}
+.calcValue input{font-size:32px!important;line-height:1.2;min-width:0;max-width:100%!important;transform:none!important}
+.calcFormula{max-width:100%;overflow-x:auto}
+@media(max-width:430px){.sheet{padding-left:14px;padding-right:14px}.calc{gap:7px}.calc button{font-size:20px}.calcValue input{font-size:30px!important}}
